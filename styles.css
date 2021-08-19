@@ -1,0 +1,126 @@
+html{
+    height: 125vh;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    /*background: linear-gradient(45deg, #e66465, #9198e5);*/
+    background: linear-gradient(45deg, #9198e5, #e66465) no-repeat fixed;
+
+}
+p{
+    color: #d3e0fc;
+}
+#firstPicture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 35%;
+    max-width: 40%;
+    padding: 10px;
+
+}
+
+#header{
+    margin: 0 40px 20px 40px;
+    text-align: left;
+    padding: 10px;
+    font-size: 35px;
+    min-width: 60%;
+}
+div{
+    display: block;
+}
+
+#logoText{
+    width: 450px;
+    align-content: center;
+    text-align: center;
+    padding: 16px;
+    border: 2px solid blue;
+}
+#selector{
+    padding: 30px;
+
+}
+#selector > div{
+    background-color: #fcfdfd;
+    position: relative;
+    left: 200px;
+    margin: 5px;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    width: 23%;
+    font-size: 20px;
+    max-width: 450px;
+    min-width: 315px;
+}
+#output{
+    background-color: #fcfdfd;
+    position: relative;
+    left: 230px;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    width: 545px;
+}
+#generatedPassword{
+    width: 200px;
+}
+#generate{
+    min-width: 320px;
+}
+#generateButton{
+    position: relative;
+    left: 55px;
+    font-size: 18px;
+    width: 200px;
+    height: 35px;
+    color: #1f731f;
+}
+.ready{
+    font-size: 20px;
+}
+#copyButton{
+    width: 65px;
+    height: 30px;
+}
+#strengthBar{
+    /*border: 1px solid beige;*/
+    position: relative;
+    left: 236px;
+    padding: 5px;
+    margin: 2px;
+    width: 535px;
+    height: 7px;
+    background: linear-gradient(to right, green 0%, beige 0%);
+    border-radius: 30px;
+}
+#key-logo{
+    position: relative;
+    max-width: 45px;
+    min-width: 10px;
+    left: 103%;
+    top: 5px;
+    padding: 5px;
+    margin: 0 40px 20px 40px;
+}
+#key-logoDiv{
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    min-width: 30%;
+}
+#headerDiv{
+    width: 65%;
+    min-width: 65%;
+    position: relative;
+    float: right;
+    display: inline-block;
+    align-content: flex-start;
+}

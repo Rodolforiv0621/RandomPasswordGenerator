@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Password Generator</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div>
+<div id = "key-logoDiv"><img src="Key-logo.png" id = "key-logo" alt="Key Logo"></div>
+<div id = "headerDiv"><h1 id = "header">Random Password Generator</h1></div>
+</div>
+
+<img id="firstPicture" src="RandPassGenPic.jpg" width="70%"  alt="Error: picture not found">
+
+<div id = "selector">
+    <div id = "passwordLengthSelector"><label for="passwordLength">Choose length of password:  </label><select id = "passwordLength" name="pass">
+               <option value = "">Select</option>
+               <option value = "6">6</option>
+               <option value = "7">7</option>
+               <option value = "8">8</option>
+               <option value = "9">9</option>
+               <option value = "10">10</option>
+               <option value = "11">11</option>
+               <option value = "12">12</option>
+               <option value = "13">13</option>
+               <option value = "14">14</option>
+               <option value = "15">15</option>
+               <option value = "16">16</option>
+               <option value = "17">17</option>
+               <option value = "18">18</option>
+               <option value = "19">19</option>
+               <option value = "20">20</option>
+               <option value = "21">21</option>
+               <option value = "22">22</option>
+               <option value = "23">23</option>
+               <option value = "24">24</option>
+               <option value = "25">25</option>
+               <option value = "26">26</option>
+               <option value = "27">27</option>
+               <option value = "28">28</option>
+               <option value = "29">29</option>
+               <option value = "30">30</option>
+           </select></div>
+    <div><label for = "upperCase">Include Uppercase letters: </label><input type = "checkbox" name = "upper" id = "upperCase" checked></div>
+    <div><label for = "lowerCase">Include Lowercase letters: </label><input type = "checkbox" name = "lower" id = "lowerCase" checked></div>
+    <div><label for = "numbers">Include Numbers: </label><input type="checkbox" id = "numbers" name = "numbers" checked></div>
+    <div id = "specialChar"><label for="Chars">Include Symbols: (!@#$%^&*) </label><input type="checkbox" id="Chars" name="Chars" value="!@#$%^&*" checked></div>
+    <div id = "generate"><label for = "generateButton" class = "ready">Ready? </label><button id = "generateButton" onclick="securePassword()">Generate Password</button></div>
+
+</div>
+<div id = "output" ><label for = "generatedPassword">Randomly Generated Password: </label>
+    <input type="text" id = "generatedPassword" name = "generatedPassword">
+    <button onclick="copyPassword()" id = "copyButton">Copy</button>
+</div>
+<div id = "strengthBar"></div>
+<script src="RandPassGen.js"></script>
+</body>
+
+</html>
