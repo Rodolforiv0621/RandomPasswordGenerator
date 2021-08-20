@@ -29,6 +29,8 @@ p{
     padding: 10px;
     font-size: 35px;
     min-width: 60%;
+    display: inline-block;
+    justify-content: center;
 }
 div{
     display: block;
@@ -108,19 +110,34 @@ div{
     top: 5px;
     padding: 5px;
     margin: 0 40px 20px 40px;
+    display: inline-block;
 }
 #key-logoDiv{
-    width: 30%;
-    position: relative;
-    display: inline-block;
-    float: left;
-    min-width: 30%;
+    /*width: 30%;*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*float: left;*/
+    margin-right: 5px;
+    /*min-width: 30%;*/
+
 }
 #headerDiv{
-    width: 65%;
-    min-width: 65%;
-    position: relative;
-    float: right;
-    display: inline-block;
-    align-content: flex-start;
+    /*width: 65%;*/
+    /*min-width: 65%;*/
+    margin-left: 60px;
+    /*position: relative;*/
+    /*float: right;*/
+    /*display: inline-block;*/
+    /*align-content: flex-start;*/
+}
+.container-item{
+
+}
+#container{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #d3e0fc;
 }
